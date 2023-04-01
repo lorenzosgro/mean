@@ -1,5 +1,5 @@
 float mean(int a, int b){
-	return (a+b)/2;
+	return (float)(a+b)/(float)2;
 }
 
 complex_float_t complex_mean(complex_int_t a, complex_int_t b) {
